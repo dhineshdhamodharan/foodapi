@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+.food {
+  margin: 35px;
+  width: 400px;
+  height: 250px;
+}
+.food-images
+{
+  display: flex;
+  gap: 30px;
+  background-image: linear-gradient(to right top, #122a15, #363e19, #624f23, #925c3c, #c06967, #d1697f, #dc6b9f, #dc74c4, #ce69cf, #b862dd, #995fec, #665ffb);
+  justify-content: space-around;
+}
+body {
+  background-color: blanchedalmond;
+  display: grid;
+  height: 100vh;
+  margin-left: 50px;
+  margin-right:50px;
+}
+.food-images:hover .food {
+  
+  border: 3px solid green;
+  transform: scale(1.2);
+  opacity: 1;
+  transition: 1s;
+}
+.food-container{
+  color: green;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.button{
+background-image: linear-gradient(to right top, #053730, #006346, #0f914c, #59bf40, #a8eb12);
+color: white;
+font-weight: bolder;
+margin-left: 20px;
+margin-bottom: 20px;
+}
